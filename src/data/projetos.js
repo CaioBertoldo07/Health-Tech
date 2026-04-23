@@ -35,6 +35,15 @@ const projetos = [
       'Sistema voltado para a melhoria da eficiência e organização na gestão de informações e prazos de processos judiciais e administrativos da procuradoria da UEA.',
     tecnologias: ['React', 'Node.js', 'PostgreSQL'],
   },
+  {
+    id: 5,
+    titulo: 'Mais Acesso Conecta — Plataforma de Inclusão Profissional',
+    categoria: 'Saúde Digital',
+    status: 'Concluído',
+    descricao:
+      'Plataforma digital que conecta pessoas com deficiência ao mercado de trabalho, permitindo o cadastro de perfis profissionais e a divulgação de vagas por empresas comprometidas com inclusão. O sistema funciona como uma rede profissional acessível, promovendo empregabilidade e oportunidades.',
+    tecnologias: ['React', 'TypeScript', 'Fastify'],
+  },
 ]
 
 export default projetos

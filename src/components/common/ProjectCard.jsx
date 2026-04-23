@@ -14,14 +14,16 @@ export default function ProjectCard({ projeto }) {
         <span className="text-xs font-semibold text-primary-500 uppercase tracking-wider">
           {categoria}
         </span>
-        <span
-          className={cn(
-            'text-xs font-semibold px-2.5 py-0.5 rounded-full whitespace-nowrap',
-            statusColors[status] ?? 'bg-gray-100 text-gray-600',
-          )}
-        >
-          {status}
-        </span>
+        {status && (
+          <span
+            className={cn(
+              'text-xs font-semibold px-2.5 py-0.5 rounded-full whitespace-nowrap',
+              statusColors[status] ?? 'bg-gray-100 text-gray-600',
+            )}
+          >
+            {status}
+          </span>
+        )}
       </div>
       <h3 className="font-heading font-bold text-primary-900 text-xl mb-3 leading-snug">
         {titulo}
