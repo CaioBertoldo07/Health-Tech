@@ -1,0 +1,3 @@
+Projeto Juri
+
+Sistema voltado para a melhoria da eficiência e organização na gestão de informações e prazos de processos judiciais e administrativos da procuradoria.

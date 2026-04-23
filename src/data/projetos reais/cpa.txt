@@ -1,0 +1,3 @@
+CPA - Comissão Própria de Avaliação
+
+Sistema para gestão de autoavaliação institucional (CPA), com autenticação integrada ao ecossistema UEA/Lyceum, criação de avaliações, aplicação por perfil e consolidação de respostas.
