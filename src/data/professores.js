@@ -1,6 +1,6 @@
 import fotoAurea from '@/assets/images/professores/aurea.jpeg'
 import fotoCuevas from '@/assets/images/professores/cuevas.jpeg'
-import fotoDiana from '@/assets/images/professores/diana.jpeg'
+import fotoDiana from '@/assets/images/professores/diana.png'
 
 const professores = [
   {

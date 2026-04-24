@@ -14,25 +14,25 @@ const destaques = [
     icon: Brain,
     titulo: 'Pesquisa de ponta',
     descricao:
-      'Desenvolvemos soluções baseadas em IA, IoT e Engenharia de Software aplicadas à saúde pública e digital.',
+      'Desenvolvemos pesquisa aplicada em Inteligência Artificial, Engenharia de Software e tecnologias emergentes, gerando conhecimento que fundamenta soluções inovadoras e a formação qualificada em tecnologia.',
   },
   {
     icon: Activity,
     titulo: 'Impacto regional',
     descricao:
-      'Nossos projetos endereçam desafios reais da saúde na Amazônia, com tecnologia acessível e escalável.',
+      'Desenvolvemos soluções tecnológicas alinhadas às necessidades da Amazônia, promovendo inclusão, acesso à tecnologia e desenvolvimento sustentável em diferentes setores.',
   },
   {
     icon: Code,
     titulo: 'Inovação aplicada',
     descricao:
-      'Da triagem por imagem à telemedicina, construímos ferramentas que transformam o cuidado em saúde.',
+      'Transformamos conhecimento em soluções reais, desenvolvendo sistemas, aplicações e plataformas tecnológicas com potencial de aplicação em diferentes setores.',
   },
   {
     icon: Users,
     titulo: 'Equipe multidisciplinar',
     descricao:
-      'Professores e pesquisadores experientes em áreas complementares formam um time de alto desempenho.',
+      'Reunimos especialistas em computação, engenharia, saúde e áreas aplicadas, integrando desenvolvimento tecnológico e formação de talentos em um ambiente colaborativo e inovador.',
   },
 ]
 
@@ -57,7 +57,7 @@ export default function Home() {
       <Section>
         <SectionTitle
           title="Por que o Health Tech?"
-          subtitle="Unimos tecnologia, ciência e propósito para transformar a saúde na região amazônica e no Brasil."
+          subtitle="Porque transformamos pesquisa em soluções tecnológicas, conectando Inteligência Artificial, engenharia de software e desenvolvimento de aplicações multiplataforma às demandas reais de diferentes setores. Além disso, formamos talentos e promovemos inclusão por meio da tecnologia."
           centered
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
