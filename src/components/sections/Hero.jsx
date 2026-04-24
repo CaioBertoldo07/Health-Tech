@@ -15,7 +15,7 @@ export default function Hero() {
           <div>
             <div className="inline-flex items-center gap-2 bg-accent-500/20 border border-accent-500/40 rounded-full px-4 py-1.5 text-accent-500 text-sm font-semibold mb-6">
               <FlaskConical size={15} />
-              Laboratório de Tecnologia em Saúde
+              Centro de Pesquisa e Inovação em Computação Aplicada à Saúde Digital (Health Tech Center)
             </div>
             <h1 className="font-heading text-4xl lg:text-6xl font-extrabold leading-tight mb-6">
               Inovação e Pesquisa em{' '}

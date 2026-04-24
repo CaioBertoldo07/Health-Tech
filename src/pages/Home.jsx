@@ -12,25 +12,25 @@ import professores from '@/data/professores'
 const destaques = [
   {
     icon: Brain,
-    titulo: 'Pesquisa de Ponta',
+    titulo: 'Pesquisa de ponta',
     descricao:
       'Desenvolvemos soluções baseadas em IA, IoT e Engenharia de Software aplicadas à saúde pública e digital.',
   },
   {
     icon: Activity,
-    titulo: 'Impacto Regional',
+    titulo: 'Impacto regional',
     descricao:
       'Nossos projetos endereçam desafios reais da saúde na Amazônia, com tecnologia acessível e escalável.',
   },
   {
     icon: Code,
-    titulo: 'Inovação Aplicada',
+    titulo: 'Inovação aplicada',
     descricao:
-      'Do diagnóstico por imagem à telemedicina, construímos ferramentas que transformam o cuidado em saúde.',
+      'Da triagem por imagem à telemedicina, construímos ferramentas que transformam o cuidado em saúde.',
   },
   {
     icon: Users,
-    titulo: 'Equipe Multidisciplinar',
+    titulo: 'Equipe multidisciplinar',
     descricao:
       'Professores e pesquisadores experientes em áreas complementares formam um time de alto desempenho.',
   },
@@ -40,10 +40,10 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Health Tech UEA – Laboratório de Tecnologia em Saúde</title>
+        <title>Health Tech UEA – Centro de Pesquisa e Inovação em Computação Aplicada à Saúde Digital</title>
         <meta
           name="description"
-          content="Laboratório de Tecnologia em Saúde da Universidade do Estado do Amazonas. Pesquisa em IA, IoT, telemedicina e saúde digital."
+          content="Centro de Pesquisa e Inovação em Computação Aplicada à Saúde Digital da Escola Superior de Tecnologia (EST) – UEA. Pesquisa em IA, IoT, telemedicina e saúde digital."
         />
         <meta property="og:title" content="Health Tech UEA" />
         <meta
@@ -90,7 +90,7 @@ export default function Home() {
       <Section>
         <div className="flex items-end justify-between mb-10">
           <SectionTitle
-            title="Nossa Equipe"
+            title="Nossa equipe"
             subtitle="Professores e pesquisadores dedicados à tecnologia em saúde."
           />
           <Link

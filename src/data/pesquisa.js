@@ -1,50 +1,50 @@
 const areasDesPesquisa = [
   {
     id: 1,
-    titulo: 'Inteligência Artificial em Saúde',
+    titulo: 'Inteligência Artificial em saúde',
     icone: 'Brain',
     descricao:
-      'Aplicação de machine learning e deep learning para diagnóstico auxiliado por computador, análise preditiva de doenças e processamento de linguagem natural em documentos clínicos.',
+      'Uso de algoritmos de aprendizado de máquina para apoiar o diagnóstico médico, prever riscos de doenças e processar textos e documentos clínicos de forma automática.',
     tecnologias: ['Machine Learning', 'Deep Learning', 'NLP', 'Computer Vision'],
   },
   {
     id: 2,
-    titulo: 'Internet das Coisas (IoT) Médica',
+    titulo: 'Internet das Coisas (IoT) médica',
     icone: 'Activity',
     descricao:
-      'Desenvolvimento de dispositivos e sistemas IoT para monitoramento remoto de pacientes, coleta de dados fisiológicos em tempo real e integração com infraestrutura hospitalar.',
+      'Desenvolvimento de dispositivos e sistemas conectados para monitorar pacientes à distância, coletar dados de saúde em tempo real e integrá-los a sistemas hospitalares.',
     tecnologias: ['IoT', 'Sensores', 'Edge Computing', 'MQTT'],
   },
   {
     id: 3,
-    titulo: 'Engenharia de Software em Saúde',
+    titulo: 'Engenharia de Software em saúde',
     icone: 'Code',
     descricao:
-      'Desenvolvimento de sistemas de informação em saúde seguindo padrões de interoperabilidade (HL7, FHIR), com foco em prontuário eletrônico, prescrição digital e telemedicina.',
+      'Criação de sistemas de informação em saúde com foco em compatibilidade entre plataformas e instituições, abrangendo prontuário eletrônico, prescrição digital e telemedicina.',
     tecnologias: ['HL7 FHIR', 'Microserviços', 'APIs REST', 'UX/UI'],
   },
   {
     id: 4,
-    titulo: 'Saúde Digital e Telemedicina',
+    titulo: 'Saúde digital e telemedicina',
     icone: 'Stethoscope',
     descricao:
-      'Pesquisa em modelos de atenção à saúde mediados por tecnologia digital, incluindo teleconsulta, telemonitoramento e estratégias de acesso à saúde em regiões remotas amazônicas.',
+      'Pesquisa em modelos de atenção à saúde mediados por tecnologia, incluindo consultas e monitoramento à distância, com foco no acesso a regiões remotas da Amazônia.',
     tecnologias: ['Telemedicina', 'mHealth', 'WebRTC', 'LGPD'],
   },
   {
     id: 5,
-    titulo: 'Ciência de Dados e Epidemiologia',
+    titulo: 'Ciência de dados e epidemiologia',
     icone: 'BarChart2',
     descricao:
-      'Análise exploratória e preditiva de dados populacionais de saúde pública, com suporte à tomada de decisão em vigilância epidemiológica e gestão de sistemas de saúde.',
+      'Análise de grandes volumes de dados de saúde pública para identificar padrões, prever surtos e apoiar decisões em vigilância epidemiológica e gestão de sistemas de saúde.',
     tecnologias: ['Big Data', 'Python', 'R', 'Visualização de Dados'],
   },
   {
     id: 6,
-    titulo: 'Segurança e Privacidade de Dados em Saúde',
+    titulo: 'Segurança e privacidade de dados em saúde',
     icone: 'Shield',
     descricao:
-      'Investigação de mecanismos de proteção de dados sensíveis de saúde, conformidade com LGPD, criptografia aplicada e gestão de identidade em sistemas clínicos.',
+      'Investigação de mecanismos para proteger dados sensíveis de saúde, garantindo conformidade com a LGPD e aplicando criptografia e controle de acesso em sistemas clínicos.',
     tecnologias: ['Criptografia', 'LGPD', 'OAuth2', 'Blockchain'],
   },
 ]

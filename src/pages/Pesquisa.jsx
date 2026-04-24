@@ -28,7 +28,7 @@ export default function Pesquisa() {
 
       <Section>
         <SectionTitle
-          title="Áreas de Pesquisa"
+          title="Áreas de pesquisa"
           subtitle="Nosso laboratório atua em seis eixos temáticos interconectados."
           centered
         />
@@ -68,22 +68,22 @@ export default function Pesquisa() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <SectionTitle
-                title="Metodologia e Impacto"
+                title="Metodologia e impacto"
                 subtitle="Como transformamos pesquisa em soluções reais para a saúde."
                 light
               />
               <div className="space-y-4">
                 {[
                   {
-                    titulo: 'Pesquisa Aplicada',
+                    titulo: 'Pesquisa aplicada',
                     desc: 'Desenvolvemos protótipos e produtos testados em contextos reais de saúde.',
                   },
                   {
-                    titulo: 'Parcerias Institucionais',
+                    titulo: 'Parcerias institucionais',
                     desc: 'Colaboramos com hospitais, secretarias de saúde e outros laboratórios.',
                   },
                   {
-                    titulo: 'Publicações e Transferência',
+                    titulo: 'Publicações e transferência',
                     desc: 'Publicamos em periódicos e conferências nacionais e internacionais.',
                   },
                 ].map(({ titulo, desc }) => (
@@ -117,8 +117,7 @@ export default function Pesquisa() {
 
       <CTASection
         title="Interesse em colaborar?"
-        description="Pesquisadores, estudantes e parceiros são bem-vindos para projetos de pesquisa conjuntos."
-        buttonLabel="Entre em Contato"
+        buttonLabel="Entre em contato"
       />
     </>
   )

@@ -45,7 +45,7 @@ export default function Equipe() {
               <Users className="text-primary-900" size={32} />
             </div>
             <h2 className="font-heading font-bold text-primary-900 text-2xl mb-3">
-              Faça Parte da Equipe
+              Faça parte da equipe
             </h2>
             <p className="text-gray-500 mb-6">
               Estudantes de graduação e pós-graduação interessados em pesquisa em saúde digital
@@ -63,9 +63,8 @@ export default function Equipe() {
       </section>
 
       <CTASection
-        title="Colaboração Institucional"
-        description="Instituições e empresas interessadas em parcerias de pesquisa e desenvolvimento são bem-vindas."
-        buttonLabel="Ver Canais de Contato"
+        title="Colaboração institucional"
+        buttonLabel="Ver canais de contato"
         buttonTo="/contato"
       />
     </>

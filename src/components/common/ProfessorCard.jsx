@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react'
 
 export default function ProfessorCard({ professor }) {
-  const { nome, funcao, lattesUrl, foto } = professor
+  const { nome, funcao, bio, lattesUrl, foto, objectPosition } = professor
 
   return (
     <article className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
@@ -9,14 +9,17 @@ export default function ProfessorCard({ professor }) {
         <img
           src={foto}
           alt={`Foto de ${nome}`}
-          className="w-full h-full object-cover object-top"
+          className={`w-full h-full object-cover ${objectPosition ?? 'object-top'}`}
         />
       </div>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="font-heading font-bold text-primary-900 text-lg leading-snug mb-1">
           {nome}
         </h3>
-        <p className="text-accent-500 font-medium text-sm mb-4">{funcao}</p>
+        <p className="text-accent-500 font-medium text-sm mb-3">{funcao}</p>
+        {bio && (
+          <p className="text-gray-500 text-sm leading-relaxed mb-4 whitespace-pre-line">{bio}</p>
+        )}
         <div className="mt-auto">
           <a
             href={lattesUrl}

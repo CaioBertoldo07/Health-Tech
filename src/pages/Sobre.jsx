@@ -20,12 +20,12 @@ const valores = [
 ]
 
 const marcos = [
-  { ano: '2019', evento: 'Fundação do laboratório Health Tech na UEA' },
+  { ano: '2019', evento: 'Fundação do Health Tech Center na EST-UEA' },
   { ano: '2020', evento: 'Primeiros projetos de pesquisa em telemedicina e IoT médica' },
-  { ano: '2021', evento: 'Parceria com Secretaria de Saúde do Amazonas' },
+  { ano: '2021', evento: 'Parceria com a Secretaria de Saúde do Amazonas' },
   { ano: '2022', evento: 'Publicações internacionais em IA aplicada à saúde' },
-  { ano: '2023', evento: 'Expansão da infraestrutura e novos pesquisadores' },
-  { ano: '2024', evento: 'Lançamento da plataforma de telemedicina regional' },
+  { ano: '2023', evento: 'Expansão da infraestrutura e integração de novos pesquisadores' },
+  { ano: '2024', evento: 'Novos projetos em inclusão digital, segurança pública e gestão institucional' },
 ]
 
 export default function Sobre() {
@@ -94,7 +94,7 @@ export default function Sobre() {
 
       <section className="py-16 bg-neutral-light">
         <div className="container-content">
-          <SectionTitle title="Linha do Tempo" subtitle="Os marcos que definiram nossa trajetória." />
+          <SectionTitle title="Linha do tempo" subtitle="Os marcos que definiram nossa trajetória." />
           <div className="relative">
             <div className="absolute left-4 lg:left-1/2 top-0 bottom-0 w-0.5 bg-primary-200 -translate-x-1/2" aria-hidden="true" />
             <div className="space-y-8">
@@ -129,7 +129,7 @@ export default function Sobre() {
 
       <Section>
         <SectionTitle
-          title="Infraestrutura e Ambiente"
+          title="Infraestrutura e ambiente"
           subtitle="Espaços projetados para pesquisa, colaboração e inovação."
           centered
         />
@@ -147,10 +147,7 @@ export default function Sobre() {
         </div>
       </Section>
 
-      <CTASection
-        title="Quer conhecer o laboratório?"
-        description="Entre em contato com nossa equipe para agendar uma visita ou discutir oportunidades de colaboração."
-      />
+      <CTASection title="Quer conhecer o laboratório?" />
     </>
   )
 }

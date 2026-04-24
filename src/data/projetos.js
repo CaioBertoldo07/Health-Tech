@@ -3,7 +3,7 @@ const projetos = [
     id: 1,
     titulo: 'Sentinela — Segurança Pública com IA',
     categoria: 'Inteligência Artificial',
-    status: 'Em andamento',
+    status: 'Concluído',
     descricao:
       'Desenvolvido com investimentos da Cal-Comp via Lei de Informática, o Sentinela utiliza inteligência artificial para reconhecimento facial e identificação de placas de veículos, com foco em soluções para a segurança pública.',
     tecnologias: ['Python', 'Computer Vision', 'IA', 'Cal-Comp'],

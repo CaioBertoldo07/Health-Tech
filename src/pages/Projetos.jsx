@@ -105,7 +105,7 @@ export default function Projetos() {
 
       <Section>
         <SectionTitle
-          title="Nossos Projetos"
+          title="Nossos projetos"
           subtitle="Iniciativas em andamento e concluídas pelo laboratório."
         />
 
@@ -134,8 +134,7 @@ export default function Projetos() {
 
       <CTASection
         title="Tem um projeto em mente?"
-        description="Estamos abertos a parcerias e colaborações com instituições, empresas e pesquisadores."
-        buttonLabel="Fale Conosco"
+        buttonLabel="Fale conosco"
       />
     </>
   )

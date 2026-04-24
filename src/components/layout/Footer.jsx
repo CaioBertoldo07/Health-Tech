@@ -30,8 +30,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
-              Laboratório de Tecnologia em Saúde da Universidade do Estado do Amazonas.
-              Pesquisa, inovação e impacto na saúde pública amazônica.
+              Centro de Pesquisa e Inovação em Computação Aplicada à Saúde Digital.
+              Escola Superior de Tecnologia (EST) – Universidade do Estado do Amazonas.
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-accent-500" />
-                <span>Universidade do Estado do Amazonas – Manaus, AM</span>
+                <span>Escola Superior de Tecnologia (EST) – Universidade do Estado do Amazonas – Manaus, AM</span>
               </li>
               <li>
                 <a
@@ -92,8 +92,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-xs text-gray-500">
-          © {year} Health Tech UEA – Universidade do Estado do Amazonas. Todos os direitos
-          reservados.
+          © {year} Health Tech Center – Escola Superior de Tecnologia (EST) – Universidade do Estado do Amazonas. Todos os direitos reservados.
         </div>
       </div>
     </footer>
